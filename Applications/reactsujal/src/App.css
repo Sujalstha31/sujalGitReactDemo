@@ -1,0 +1,51 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.h2 {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.garden-title {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Brush Script MT', cursive; /* Use your desired font family */
+  margin: 10px 0 0 0; /* 10px from the top, 0 from right, bottom, and left */
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.details-container {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.6); /* Transparent white background with 0.6 opacity */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Rest of your CSS styles */
+
+
+/* Rest of your CSS styles */
