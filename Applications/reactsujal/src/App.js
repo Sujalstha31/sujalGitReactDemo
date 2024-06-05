@@ -28,10 +28,7 @@ function App() {
       <div className="content">
         
         <div className="login-container">
-          <form onSubmit={handleSubmit}>
-           
-        
-          </form>
+          
         </div>
         <div className="details-container">
        
